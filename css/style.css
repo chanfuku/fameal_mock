@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body	{margin: 0;
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif}
+
+/* サイト名 */
+.site h1 a	{color: #000000;
+	text-decoration: none}
+.site h1	{margin: 0;
+	font-size: 10px}
+.site img	{border: none}
+
+/* box */
+.box3, .box4, .space   {text-align: center;
+    margin-left: auto;
+    margin-right: auto;}
+.box4 {position: relative;}
+
+.space {height: 100px;
+    display: table;}
+.space-inner p  {font-size: 80%;}
+.space .space-inner    {display: table-cell;
+    vertical-align: middle;}
+.space-inner .line {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+	border-top: solid 2px black;
+	border-bottom: solid 2px black;}
+
+.contentImg {max-width: 100%;}
+.catch {position: absolute;
+    top: 1%;
+    width: 100%;}
+.contents {position: absolute;
+    top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;}
+
+/* ########### 879px以下 ########### */
+@media (max-width: 879px) {
+
+/* トグルボタン */
+#menubtn	{padding: 6px 12px;
+	border: solid 1px #aaaaaa;
+	border-radius: 5px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	cursor: pointer}
+
+#menubtn:hover	{background-color: #dddddd}
+
+#menubtn:focus	{outline: none}
+
+#menubtn i	{color: #888888;
+	font-size: 18px}
+
+#menubtn span	{display: inline-block;
+	text-indent: -9999px}
+
+/* ナビゲーションメニュー（縦並び） */
+.menu	{display: none}
+
+.menu ul	{margin: 0;
+	padding: 0;
+	list-style: none}
+
+.menu li a	{display: block;
+	padding: 5px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none}
+
+.menu li a:hover	{background-color: #eeeeee}
+
+.box3 p {font-size: 120%;}
+.box4 p {font-size: 80%;}
+
+}
+
+/* ########### 880px以上 ########### */
+@media (min-width: 880px) {
+
+/* トグルボタン */
+#menubtn	{display: none}
+
+ /* ナビゲーション */
+#menu	{display: block !important;}
+
+.menu ul	{margin: 0;
+	padding: 0;
+	list-style: none}
+
+.menu li a	{display: block;
+	padding: 10px 15px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none}
+
+.menu li a:hover	{background-color: #eeeeee}
+
+.menu ul:after	{content: "";
+	display: block;
+	clear: both}
+
+.menu li	{float: left;
+	width: auto}
+
+/* boxAの上下左右 */
+.boxA   {padding: 20px 15px 10px;}
+
+/* BOX1とBOX2を横に並べる設定 */
+.boxA:after	{content: "";
+	display: block;
+	clear: both}
+
+.box1	{float: left;
+	width: auto}
+
+.box2	{float: right;
+	width: auto;
+    padding-top: 30px;}
+
+.space p {font-size: 20px;}
+
+.box3 p {font-size: 120%;}
+.box4 p {font-size: 120%;}
+
+}
+
+/* ########### 1190px以上 ########### */
+@media (min-width: 1190px) {
+
+/* 全体の横幅を固定 */
+.boxA-inner, .box3, .box4
+    {width: 1140px;
+    text-align: center;
+	  margin-left: auto;
+	  margin-right: auto}
+
+/* BOX Aの下に罫線を挿入 */
+.boxA	{margin-bottom: 20px;
+	border-bottom: solid 1px #dddddd}
+
+}
