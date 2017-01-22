@@ -11,7 +11,7 @@ body	{margin: 0;
 .site img	{border: none}
 
 /* box */
-.box3, .box4, .space, .box7   {text-align: center;
+.box3, .box4, .space, .box_img, .box7   {text-align: center;
     margin-left: auto;
     margin-right: auto;}
 .box4, .box7 {position: relative;}
@@ -40,6 +40,21 @@ body	{margin: 0;
     margin-right: 10%;}
 
 .box7 {display: table;}
+.box7-inner {position: absolute;
+    top: 10%;
+    bottom: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;}
+.box7-inner ol {
+    display: table-cell;
+    vertical-align: middle;
+}
+.box7-inner li {text-align: left;
+    margin-top: 3%;
+    margin-bottom: 3%;}
+
 
 /* ########### 879px以下 ########### */
 @media (max-width: 879px) {
@@ -82,18 +97,6 @@ body	{margin: 0;
 .box3 p {font-size: 120%;}
 .box4 p {font-size: 80%;}
 .contents {top: 7%;}
-.box7-inner {position: absolute;
-    top: 10%;
-    bottom: 10%;
-    background-color: rgba(255, 255, 255, 0.7);
-    display: table-cell;
-    vertical-align: middle;
-    padding: 5%;
-    margin-left: 10%;
-    margin-right: 10%;}
-.box7-inner li {text-align: left;
-    margin-top: 3%;
-    margin-bottom: 3%;}
 
 }
 
@@ -148,12 +151,12 @@ body	{margin: 0;
 
 }
 
-/* ########### 1190px以上 ########### */
-@media (min-width: 1190px) {
+/* ########### 1200px以上 ########### */
+@media (min-width: 1200px) {
 
 /* 全体の横幅を固定 */
-.boxA-inner, .box3, .box4
-    {width: 1140px;
+.boxA-inner, .box3, .box4, .box_img, .box7
+    {width: 1200px;
     text-align: center;
 	  margin-left: auto;
 	  margin-right: auto}
