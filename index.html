@@ -18,9 +18,25 @@
 
 <div class="box2">
 
-	<button type="button" id="menubtn">
+	<!-- <button type="button" id="menubtn">
+	<i class="fa fa-bars"></i><span>MENU</span>
+    </button> -->
+
+	<button type="button" id="menubtn" class="btn" data-action="toggle" data-side="right">
 	<i class="fa fa-bars"></i><span>MENU</span>
 	</button>
+
+    <div class="sidebar right">
+        <nav class="menu-sp" id="menu">
+            <ul>
+	            <li><a href="#about">食卓を共について</a></li>
+	            <li><a href="#thoughts">サービス理念</a></li>
+	            <li><a href="#">サービス事業者</a></li>
+	            <li><a href="#">お問い合わせ</a></li>
+	            <li><a href="#">お申し込み</a></li>
+	        </ul>
+        </nav>
+    </div>
 
     <nav class="menu" id="menu">
         <ul>
@@ -30,7 +46,7 @@
 	        <li><a href="#">お問い合わせ</a></li>
 	        <li><a href="#">お申し込み</a></li>
 	    </ul>
-    </nav>
+    </nav> 
 </div>
 </div>
 </div>
@@ -88,7 +104,8 @@
     </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sidebar/3.3.2/jquery.sidebar.min.js"></script>
 <script src="js/top.js"></script>
 </body>
 </html>
