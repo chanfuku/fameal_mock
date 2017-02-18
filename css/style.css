@@ -50,11 +50,22 @@ body	{margin: 0;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 5%;
     margin-left: 10%;
-    margin-right: 10%;}
+    margin-right: 10%;
+    overflow: auto;}
 .box7-inner ol { display: table-cell;}
-.box7-inner li {text-align: left;
+.box7-inner li { text-align: left;
     margin-top: 3%;
     margin-bottom: 3%;}
+.title, .title2 { font-size: 70%;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.3em;
+    padding-bottom: 0.3em;}
+.title2 { margin-top: 10%; /* 上線の外側の余白はナシ */
+   padding-top: 10px; /* 上線の内側の余白はナシ */}
+.name { font-size: 50%;
+    text-align: left;}
+.box7-inner .text {font-size: 30%;
+    text-align: left;}
 
 .sidebar.right {
     top: 10%;
