@@ -3,8 +3,6 @@
 body	{margin: 0;
 	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif}
 
-
-
 /* サイト名 */
 .site h1 a	{color: #000000;
 	text-decoration: none}
@@ -20,7 +18,7 @@ body	{margin: 0;
 
 .space {height: 100px;
     display: table;}
-.space-inner p  {font-size: 80%;}
+.space-inner p  {font-size: 120%;}
 .space .space-inner,
 .box7 .box7-inner {display: table-cell;
     vertical-align: middle;}
@@ -50,8 +48,8 @@ body	{margin: 0;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 5%;
     margin-left: 10%;
-    margin-right: 10%;
-    overflow: auto;}
+    margin-right: 10%;}
+.flow {overflow: auto;}
 .box7-inner ol { display: table-cell;}
 .box7-inner li { text-align: left;
     margin-top: 3%;
@@ -134,7 +132,9 @@ body	{margin: 0;
 	text-decoration: none}
 .menu-sp li a:hover	{background-color: #ffffff}
 
-.box3 p {font-size: 120%;}
+.box3 p {font-size: 150%;
+    line-height: 1.8;
+    margin-bottom: 5%;}
 .box4 p {font-size: 80%;}
 .contents {top: 7%;}
 
@@ -195,7 +195,10 @@ body	{margin: 0;
 .space {height: 200px;}
 .space p {font-size: 30px;}
 
-.box3 p {font-size: 200%;}
+.box3 p {font-size: 250%;
+    line-height: 1.8;
+    margin-bottom: 5%;}
+
 .box4 p {font-size: 120%;}
 .contents {top: 5%;}
 
