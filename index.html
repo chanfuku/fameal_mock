@@ -5,9 +5,14 @@
 <title>FAMEAL</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="css/button.css">
+<link rel="stylesheet" href="css/modal.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!-- メインコンテンツ-->
+<div class="wrapper">
+    <!-- ここはコンテンツ -->
 <div class="boxA">
 <div class="boxA-inner">
 <div class="box1">
@@ -18,31 +23,13 @@
 
 <div class="box2">
 
-	<!-- <button type="button" id="menubtn">
-	<i class="fa fa-bars"></i><span>MENU</span>
-    </button> -->
-
-	<button type="button" id="menubtn" class="btn" data-action="toggle" data-side="right">
-	<i class="fa fa-bars"></i><span>MENU</span>
-	</button>
-
-    <div class="sidebar right">
-        <nav class="menu-sp" id="menu">
-            <ul>
-	            <li><a href="#about">食卓を共について</a></li>
-	            <li><a href="#thoughts">サービス理念</a></li>
-	            <li><a href="#policy">利用規約</a></li>
-	            <li><a href="#">お問い合わせ</a></li>
-	            <li><a href="#">お申し込み</a></li>
-	        </ul>
-        </nav>
-    </div>
-
     <nav class="menu" id="menu">
         <ul>
 	        <li><a href="#about">食卓を共について</a></li>
+	        <li><a href="#usage">ご利用方法</a></li>
+	        <li><a href="#price">料金</a></li>
 	        <li><a href="#thoughts">サービス理念</a></li>
-	        <li><a href="#">サービス事業者</a></li>
+	        <li><a href="#policy">利用規約</a></li>
 	        <li><a href="#">お問い合わせ</a></li>
 	        <li><a href="#">お申し込み</a></li>
 	    </ul>
@@ -61,7 +48,7 @@
     <p class="contents">FAMEALとは、食卓にスタッフがご一緒させていただくことで、<br>素敵な楽しい”時間”を作り出し、共有することができるサービスです。</p>
 </div>
 
-<div class="space">
+<div class="space" id="usage">
     <div class="space-inner">
         <p>ご利用方法</p>
     </div>
@@ -71,7 +58,7 @@
     <img src="img/img_2_pc.png" alt="" class="js-image-switch contentImg">
 </div>
 
-<div class="space">
+<div class="space" id="price">
     <div class="space-inner">
         <p>料金</p>
     </div>
@@ -81,13 +68,13 @@
     <img src="img/img_3_pc.png" alt="" class="js-image-switch contentImg">
 </div>
 
-<div class="space">
+<div class="space" id="thoughts">
     <div class="space-inner">
         <p>サービス理念</p>
     </div>
 </div>
 
-<div class="box7" id="thoughts">
+<div class="box7">
     <img src="img/img_4.jpg" class="contentImg">
     <div class="box7-inner">
         <ol>
@@ -98,13 +85,13 @@
     </div>
 </div>
 
-<div class="space">
+<div class="space" id="policy">
     <div class="space-inner">
         <p>利用規約</p>
     </div>
 </div>
 
-<div class="box7" id="policy">
+<div class="box7">
     <img src="img/img_5.jpg" class="contentImg">
     <div class="box7-inner flow">
         <p class="title">利用規約・プライバシーポリシー</p>
@@ -214,9 +201,25 @@ famealに関連して訴訟等の必要が生じた場合には、東京地方�
     </div>
 </div>
 
+<button type="button" class="menu-btn" id="menubtn">
+<i class="fa fa-bars"></i><span></span>
+</button>
+
+<!-- モーダルメニュー -->
+<nav class="modalmenu" id="js__nav">
+    <ul>
+	  <li><a href="#about">食卓を共について</a></li>
+	  <li><a href="#usage">ご利用方法</a></li>
+	  <li><a href="#price">料金</a></li>
+	  <li><a href="#thoughts">サービス理念</a></li>
+	  <li><a href="#policy">利用規約</a></li>
+	  <li><a href="#">お問い合わせ</a></li>
+	  <li><a href="#">お申し込み</a></li>
+    </ul>
+</nav>
+
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sidebar/3.3.2/jquery.sidebar.min.js"></script>
-<script src="js/top.js"></script>
 <script src="js/resize.js"></script>
+<script src="js/modal.js"></script>
 </body>
 </html>

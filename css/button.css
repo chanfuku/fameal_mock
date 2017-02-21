@@ -1,0 +1,26 @@
+/* ########### 879px以下 ########### */
+@media (max-width: 879px) {
+
+.menu-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu-btn span {
+    color: red;
+}
+
+.menu-btn span:after {
+    content: attr(data-txt-menu);
+}
+
+/* 開閉用ボタンがクリックされた時のスタイル */
+.open .menu-btn span:after {
+    content: attr(data-txt-close);
+}
+

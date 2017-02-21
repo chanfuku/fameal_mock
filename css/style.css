@@ -45,7 +45,7 @@ body	{margin: 0;
     top: 10%;
     bottom: 10%;
     vertical-align: middle;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 5%;
     margin-left: 10%;
     margin-right: 10%;}
@@ -90,12 +90,10 @@ body	{margin: 0;
 	border: solid 1px #aaaaaa;
 	border-radius: 5px;
 	background-color: #ffffff;
-	position: absolute;
+	position: fixed;
 	top: 20px;
 	right: 15px;
 	cursor: pointer}
-
-#menubtn:hover	{background-color: #dddddd}
 
 #menubtn:focus	{outline: none}
 
