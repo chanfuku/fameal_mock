@@ -65,70 +65,11 @@ body	{margin: 0;
 .box7-inner .text {font-size: 70%;
     text-align: left;}
 
-.sidebar.right {
-    top: 10%;
-    right: 0;
-    bottom: 0;
-    width: 120px;
-    z-index: 1;
-    border-radius: 3px;
-    background-color: rgba(220, 220, 220, 0.7);
-}
-.sidebar {
-    position: fixed;
-    color: white;
-    padding: 10px;
-    font-size: 1em;
-    text-align: left;
-}
-
 /* ########### 879px以下 ########### */
 @media (max-width: 879px) {
 
-/* トグルボタン */
-#menubtn	{padding: 6px 12px;
-	border: solid 1px #aaaaaa;
-	border-radius: 5px;
-	background-color: #ffffff;
-	position: fixed;
-	top: 20px;
-	right: 15px;
-	cursor: pointer}
-
-#menubtn:focus	{outline: none}
-
-#menubtn i	{color: #888888;
-	font-size: 18px}
-
-#menubtn span	{display: inline-block;
-	text-indent: -9999px}
-
 /* ナビゲーションメニュー（縦並び） */
-.menu	{display: none;
-    background-color: #eeeeee;}
-.menu ul	{margin: 0;
-	padding: 1%;
-	list-style: none}
-.menu li a	{display: block;
-    line-height: 180%;
-    padding-left: 10px;
-	color: #000000;
-	font-size: 80%;
-	text-decoration: none}
-.menu li a:hover	{background-color: #ffffff}
-
-/* ナビゲーションメニュー（サイドバー） */
-.menu-sp    {display: block;}
-.menu-sp ul	{margin: 0;
-	padding: 1%;
-	list-style: none}
-.menu-sp li a	{display: block;
-    line-height: 180%;
-    padding-right: 10px;
-	color: #000000;
-	font-size: 80%;
-	text-decoration: none}
-.menu-sp li a:hover	{background-color: #ffffff}
+.menu	{display: none;}
 
 .box3 p {font-size: 150%;
     line-height: 1.8;
