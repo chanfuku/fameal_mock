@@ -30,9 +30,9 @@
 	        <li><a href="#about">食卓を共にについて</a></li>
 	        <li><a href="#usage">ご利用方法</a></li>
 	        <li><a href="#price">料金</a></li>
+	        <li><a href="#apply">お申し込み</a></li>
 	        <li><a href="#thoughts">サービス理念</a></li>
 	        <li><a href="#policy">利用規約</a></li>
-	        <li><a href="#apply">お申し込み</a></li>
 	        <li><a href="#">お問い合わせ</a></li>
 	    </ul>
     </nav>
@@ -57,7 +57,10 @@
 </div>
 
 <div class="box_img">
-    <img src="img/img_2_pc.png" alt="" class="js-image-switch contentImg">
+    <img src="img/img_2_pc.png" alt="" class="js-image-switch contentImg" usemap="#test">
+    <map name="test">
+        <area href="#apply" shape="rect" coords="450,850,750,950">
+    </map>
 </div>
 
 <div class="space" id="price">
@@ -68,6 +71,41 @@
 
 <div class="box_img">
     <img src="img/img_3_pc.png" alt="" class="js-image-switch contentImg">
+</div>
+
+<div class="space" id="apply">
+    <div class="space-inner">
+        <p>お申し込み</p>
+    </div>
+</div>
+
+<div class="box3">
+    <div class="container">
+      <form id="contact" action="" method="post">
+        <h4>担当者から返信させていただきます。</h4>
+        <fieldset>
+          <input placeholder="お名前" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="住所" type="text" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="電話番号" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="参加人数" type="number" tabindex="4" required> 人
+        </fieldset>
+        <fieldset>
+          <input placeholder="希望日" type="date" tabindex="5" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="備考" type="text" tabindex="6"></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">確認</button>
+        </fieldset>
+      </form>
+    </div>
 </div>
 
 <div class="space" id="thoughts">
@@ -203,41 +241,6 @@ famealに関連して訴訟等の必要が生じた場合には、東京地方�
     </div>
 </div>
 
-<div class="space" id="apply">
-    <div class="space-inner">
-        <p>お申し込み</p>
-    </div>
-</div>
-
-<div class="box3">
-    <div class="container">
-      <form id="contact" action="" method="post">
-        <h4>担当者から返信させていただきます。</h4>
-        <fieldset>
-          <input placeholder="お名前" type="text" tabindex="1" required autofocus>
-        </fieldset>
-        <fieldset>
-          <input placeholder="住所" type="text" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-          <input placeholder="電話番号" type="tel" tabindex="3" required>
-        </fieldset>
-        <fieldset>
-          <input placeholder="参加人数" type="number" tabindex="4" required> 人
-        </fieldset>
-        <fieldset>
-          <input placeholder="希望日" type="date" tabindex="5" required>
-        </fieldset>
-        <fieldset>
-          <textarea placeholder="備考" type="text" tabindex="6"></textarea>
-        </fieldset>
-        <fieldset>
-          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">確認</button>
-        </fieldset>
-      </form>
-    </div>
-</div>
-
 <a class="menu-trigger" id="menuBtn" href="#">
 	<span></span>
 	<span></span>
@@ -250,9 +253,9 @@ famealに関連して訴訟等の必要が生じた場合には、東京地方�
 	  <li><a href="#about">食卓を共にについて</a></li>
 	  <li><a href="#usage">ご利用方法</a></li>
 	  <li><a href="#price">料金</a></li>
+	  <li><a href="#apply">お申し込み</a></li>
 	  <li><a href="#thoughts">サービス理念</a></li>
 	  <li><a href="#policy">利用規約</a></li>
-	  <li><a href="#apply">お申し込み</a></li>
 	  <li><a href="#">お問い合わせ</a></li>
     </ul>
 </nav>
