@@ -89,7 +89,7 @@ body	{margin: 0;
 
 /* ########### 380px以下 ########### */
 @media (max-width: 380px) {
-.box4 p {font-size: 60%;}
+.box4 p {font-size: 70%;}
 .box4 p.contents {margin-top:14px;}
 }
 

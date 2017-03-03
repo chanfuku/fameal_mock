@@ -29,14 +29,13 @@
 
 fieldset {
 	border: medium none !important;
-	margin: 0 0 10px;
-	min-width: 100%;
+	margin: auto;
 	padding: 0;
-    text-align: left;
-	width: 100%;
+    text-align: center;
+	width: 300px;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="date"], #contact input[type="number"], #contact textarea {
 	width:300px;
 	border:1px solid #CCC;
 	background:#FFF;
